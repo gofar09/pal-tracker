@@ -9,7 +9,7 @@ public interface TimeEntryRepository {
 
     List<TimeEntry> list();
 
-    TimeEntry update(long eq, TimeEntry any);
+    TimeEntry update(long id, TimeEntry any);
 
     void delete(long timeEntryId);
 }
